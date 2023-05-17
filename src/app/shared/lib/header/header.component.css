@@ -1,0 +1,75 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(90.85deg, #0140BC 56.48%, #0A2240 99.42%);
+  color: white;
+  font-weight: 600;
+}
+
+.header-left{
+  flex: 2;
+}
+
+.header-middle{
+  flex: 5;  
+  display: flex; 
+  justify-content: center; 
+  align-items: center
+}
+
+.header-right{
+  flex: 2; 
+  display: flex; 
+  align-items: flex-end; 
+  flex-direction: column;
+}
+
+.welcome-text{
+  margin-left: 40px;
+}
+
+.header-date{
+  margin-right: 40px;
+}
+
+.header-time{
+  margin-right: 40px; 
+  font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-text{
+    /* margin-left: 12px; */
+    font-size: 10px;
+    color: white;
+  }
+
+  .header-left{
+    flex: 3;
+  }
+  
+  .header-middle{
+    flex: 6;  
+    display: flex; 
+    justify-content: center; 
+    align-items: center
+  }
+  
+  .header-right{
+    flex: 2; 
+    display: flex; 
+    align-items: flex-end; 
+    flex-direction: column;
+  }
+
+  /* .welcome-text{
+    margin-left: 10px;
+    font-size: 6px;
+  } */
+
+}

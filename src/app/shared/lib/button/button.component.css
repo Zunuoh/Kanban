@@ -1,0 +1,18 @@
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .proceed-button{
+    width: 150px;
+    height: 40px;
+    background-color: #0064FC;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    color: white;
+    font-size: 10px;
+
+    /* background-color: (93.67deg, #0064FC 1.23%, #0033AA 58.64%); */
+  }

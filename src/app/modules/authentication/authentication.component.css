@@ -1,0 +1,116 @@
+  .homescreen-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homescreen-column{
+    width: 50%;
+    height: 470px;
+    justify-content: center;
+    align-items: center; 
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .button-container{
+    margin-top: 30px;
+  }
+
+  .homescreen-qr-column{
+    width: 50%;
+    height: 470px;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    display: flex; 
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .homescreen-column-button{
+    width: 450px; 
+    background-color: #0140BC; 
+    height: 60px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: aliceblue;
+    border-radius: 5px;
+    border-width: 0 0 0 0;
+  } 
+
+  
+
+  .homescreen-qr-section{
+    /* background-color: #0140BC; */
+    padding: 50px;
+    border-width: thin;
+    /* border: 1px solid #B6B3B2; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* box-shadow: 0px 0px 3px rgba(34, 34, 34, 0.36); */
+    border-radius: 6px;
+  }
+
+  /* 
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+    .card:not(.highlight-card) {
+      height: 16px;
+      margin: 8px 0;
+    }
+
+    .card.highlight-card span {
+      margin-left: 72px;
+    }
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+
+    .homescreen-column-button{
+    width: 300px; 
+    background-color: #0140BC ; 
+    height: 60px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: aliceblue;
+    border-radius: 5px;
+  } 
+
+  .homescreen-qr-section{
+    /* background-color: #0140BC; */
+    padding: 20px;
+    border-width: thin;
+    /* border: 1px solid #B6B3B2; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* box-shadow: 0px 0px 3px rgba(34, 34, 34, 0.36); */
+    border-radius: 6px;
+  }
+
+  .homescreen-qr-column{
+    margin-right: 20px;
+    width: 50%;
+    height: 470px;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    display: flex; 
+    flex-direction: column;
+  }
+  }
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }
