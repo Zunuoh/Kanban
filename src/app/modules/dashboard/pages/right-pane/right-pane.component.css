@@ -1,0 +1,17 @@
+.headerDiv{
+    padding: 20px;
+    display: flex;
+    background-color: #2C2C37;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerButton{
+    width: 11%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6361C1;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
