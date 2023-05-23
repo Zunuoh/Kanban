@@ -1,0 +1,21 @@
+.paneContainer{
+    padding: 20px;
+    margin-left: 10px;
+
+}
+
+.header{
+    font-size: 15px;
+    /* margin-top: 5px; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subHeader{
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+.serviceDiv{
+    margin-top: 10px;
+}

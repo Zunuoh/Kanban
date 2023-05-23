@@ -1,5 +1,15 @@
-<div>
-    Kanban
-</div>
-<div>ALL BOARDS</div>
+<div class="paneContainer">
+    <div class="header">
+        KANBAN
+    </div>
+    <div class="subHeader">
+        ALL BOARDS
+    </div>
 
+    <div >
+        <a *ngFor="let service of services">
+            <div class="serviceDiv">{{service.name}}</div>
+        </a>
+    </div>
+
+</div>

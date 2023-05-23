@@ -1,8 +1,8 @@
 export interface IServicesListItem{
     id : number,
     name :string,
-    selected : boolean,
-    route? : string,
     image? : string,
-    internal?: boolean
+    // selected : boolean,
+    // route? : string,
+    // internal?: boolean
 }

@@ -1,14 +1,18 @@
 .leftPaneContainer{
-    background-color: aquamarine; 
+    background-color: #2C2C37; 
     flex: 2;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .rightPaneContainer{
-    background-color: bisque; 
+    background-color: #21222D; 
+    color: white;
     flex: 10;
 }
 
 .mainScreenContainer{
     display: flex; 
+    height: 100%;
     max-height: auto;
 }
