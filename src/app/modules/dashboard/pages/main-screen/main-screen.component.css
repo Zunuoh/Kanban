@@ -1,0 +1,14 @@
+.leftPaneContainer{
+    background-color: aquamarine; 
+    flex: 2;
+}
+
+.rightPaneContainer{
+    background-color: bisque; 
+    flex: 10;
+}
+
+.mainScreenContainer{
+    display: flex; 
+    max-height: auto;
+}

@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainScreenComponent } from './pages/main-screen/main-screen.component';
 
 const routes: Routes = [
-  { path: "home", component: MainScreenComponent },
+  { path: "", component: MainScreenComponent },
 
 ];
 

@@ -5,10 +5,14 @@ import { DatePipe } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { MaterialModule } from './material.module';
+import { LeftPaneComponent } from '../modules/dashboard/pages/left-pane/left-pane.component';
+import { RightPaneComponent } from '../modules/dashboard/pages/right-pane/right-pane.component';
 
 
 @NgModule({
   declarations: [
+    LeftPaneComponent,
+    RightPaneComponent
   
   ],
   imports: [
@@ -20,6 +24,7 @@ import { MaterialModule } from './material.module';
   ],
   providers: [DatePipe],
   exports: [
+    LeftPaneComponent, RightPaneComponent
    ]
 })
 export class SharedModule { }

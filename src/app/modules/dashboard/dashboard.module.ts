@@ -4,6 +4,7 @@ import { MaterialModule } from 'src/app/shared/material.module';
 import { MainScreenComponent } from './pages/main-screen/main-screen.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { DashboardComponent } from './dashboard.component';
+import { DashboardRoutingModule } from './dashboard-routing.module';
 
 
 
@@ -12,7 +13,9 @@ import { DashboardComponent } from './dashboard.component';
     MainScreenComponent
   ],
   imports: [
-   MaterialModule
+   MaterialModule,
+   DashboardRoutingModule,
+   SharedModule
 
   ],
   providers: [],
