@@ -8,12 +8,18 @@ import { MaterialModule } from './material.module';
 import { LeftPaneComponent } from '../modules/dashboard/pages/left-pane/left-pane.component';
 import { RightPaneComponent } from '../modules/dashboard/pages/right-pane/right-pane.component';
 import { IconsModule } from '../icons/icons.module';
+import { CompletedTasksComponent } from '../modules/dashboard/pages/completed-tasks/completed-tasks.component';
+import { TaskInProgressComponent } from '../modules/dashboard/pages/task-in-progress-screen/task-in-progress.component';
+import { TodoScreenComponent } from '../modules/dashboard/pages/todo-screen/todo-screen.component';
 
 
 @NgModule({
   declarations: [
     LeftPaneComponent,
-    RightPaneComponent
+    RightPaneComponent,
+    CompletedTasksComponent,
+    TaskInProgressComponent,
+    TodoScreenComponent
   
   ],
   imports: [
@@ -26,7 +32,7 @@ import { IconsModule } from '../icons/icons.module';
   ],
   providers: [DatePipe],
   exports: [
-    LeftPaneComponent, RightPaneComponent
+    LeftPaneComponent, RightPaneComponent, CompletedTasksComponent, TaskInProgressComponent, TodoScreenComponent
    ]
 })
 export class SharedModule { }
