@@ -1,14 +1,19 @@
 <div class="paneContainer">
     <div class="header">
-        KANBAN
+        <i-feather name="film" class="headerIcon"></i-feather>
+        <div class="headerText">
+            KANBAN
+        </div>
     </div>
+
     <div class="subHeader">
         ALL BOARDS
     </div>
 
     <div >
-        <a *ngFor="let service of services">
-            <div class="serviceDiv">{{service.name}}</div>
+        <a *ngFor="let service of services" class="serviceDiv">
+            <i-feather name="align-justify" class="serviceIcon"></i-feather>
+            <div class="serviceName">{{service.name}}</div>
         </a>
     </div>
 

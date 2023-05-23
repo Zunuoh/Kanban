@@ -1,21 +1,44 @@
 .paneContainer{
     padding: 20px;
     margin-left: 10px;
-
 }
 
 .header{
-    font-size: 15px;
-    /* margin-top: 5px; */
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 30px;
+}
 
+.headerText{
+    font-size: 25px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerIcon{
+    fill: purple;
+    width: 20px;
+    height: 20px;
 }
 
 .subHeader{
-    margin-top: 30px;
     font-size: 10px;
+    color: #4A4C59;
+    margin-top: 25px;
 }
 
 .serviceDiv{
+    display: flex;
+}
+
+.serviceIcon{
+    fill: aliceblue;
+    width: 20px;
+    height: 20px;
     margin-top: 10px;
+}
+
+.serviceName{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 15px;
 }

@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MaterialModule } from './material.module';
 import { LeftPaneComponent } from '../modules/dashboard/pages/left-pane/left-pane.component';
 import { RightPaneComponent } from '../modules/dashboard/pages/right-pane/right-pane.component';
+import { IconsModule } from '../icons/icons.module';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RightPaneComponent } from '../modules/dashboard/pages/right-pane/right-
     ReactiveFormsModule,
     MaterialModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    IconsModule
   ],
   providers: [DatePipe],
   exports: [
